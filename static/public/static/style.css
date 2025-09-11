@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   min-width: 320px;
@@ -14,7 +15,7 @@ body {
   color: #111;
 }
 a {
-  color: #0055d4;
+  color: #8aaba9;
   text-decoration-color: #abcbfb;
 }
 a:hover {
@@ -34,7 +35,10 @@ h4 {
   margin-bottom: 45px;
 }
 
-input[type="text"], input[type="email"], input[type="password"], select {
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
   padding: 10px 15px;
   border: 1px solid #888;
   border-radius: 3px;
@@ -43,9 +47,9 @@ input[type="text"], input[type="email"], input[type="password"], select {
   border: 1px solid #ddd;
   font-size: 1em;
 }
-  input:focus {
-    border-color: #0055d4;
-  }
+input:focus {
+  border-color: #8aaba9;
+}
 
 input:focus::placeholder {
   color: transparent;
@@ -62,10 +66,10 @@ input[disabled] {
   text-align: right;
 }
 .error {
-  color: #FF5722;
+  color: #ff5722;
 }
 .button {
-  background: #0055d4;
+  background: #8aaba9;
   padding: 15px 30px;
   border-radius: 3px;
   border: 0;
@@ -83,8 +87,8 @@ input[disabled] {
 }
 .button.button-outline {
   background: #fff;
-  border: 1px solid #0055d4;
-  color: #0055d4;
+  border: 1px solid #8aaba9;
+  color: #8aaba9;
 }
 .button.button-outline:hover {
   border-color: #333;
@@ -94,7 +98,7 @@ input[disabled] {
 
 .container {
   margin: 60px auto 15px auto;
-  max-width: 550px;  
+  max-width: 550px;
 }
 
 .wrap {
@@ -127,75 +131,75 @@ input[disabled] {
   list-style-type: none;
   padding: 0;
 }
-  .lists li {
-    margin: 0 0 5px 0;    
-  }
-  .lists .description {
-    margin: 0 0 15px 0;
-    font-size: 0.875em;
-    line-height: 1.3rem;
-    color: #888;
-    margin-left: 25px;
-  }
-  .form .nonce {
-    display: none;
-  }
-  .form .captcha {
-    margin-top: 30px;
-  }
+.lists li {
+  margin: 0 0 5px 0;
+}
+.lists .description {
+  margin: 0 0 15px 0;
+  font-size: 0.875em;
+  line-height: 1.3rem;
+  color: #888;
+  margin-left: 25px;
+}
+.form .nonce {
+  display: none;
+}
+.form .captcha {
+  margin-top: 30px;
+}
 
 .archive {
   list-style-type: none;
   margin: 25px 0 0 0;
   padding: 0;
 }
-  .archive .date {
-    display: block;
-    color: #666;
-    font-size: 0.875em;
-  }
-  .archive li {
-    margin-bottom: 15px;
-  }
-  .feed {
-    margin-right: 15px;
-  }
+.archive .date {
+  display: block;
+  color: #666;
+  font-size: 0.875em;
+}
+.archive li {
+  margin-bottom: 15px;
+}
+.feed {
+  margin-right: 15px;
+}
 
 .home-options {
   margin-top: 30px;
 }
-  .home-options a {
-    margin: 0 7px;
-  }
+.home-options a {
+  margin: 0 7px;
+}
 
 .pagination {
   margin-top: 30px;
   text-align: center;
 }
-  .pg-page {
-    display: inline-block;
-    padding: 0 10px;
-    text-decoration: none;
-  }
-  .pg-page.pg-selected {
-    text-decoration: underline;
-    font-weight: bold;
-  }
+.pg-page {
+  display: inline-block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.pg-page.pg-selected {
+  text-decoration: underline;
+  font-weight: bold;
+}
 
 .login .submit {
   margin-top: 20px;
 }
-  .login button {
-    width: 100%;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .login button img {
-    max-width: 24px;
-    margin-right: 10px;
-  }
+.login button {
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login button img {
+  max-width: 24px;
+  margin-right: 10px;
+}
 
 #btn-back {
   display: none;
@@ -209,13 +213,13 @@ footer.container {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-  footer a {
-    color: #aaa;
-    text-decoration: none;
-  }
-  footer a:hover {
-    color: #111;
-  }
+footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #111;
+}
 
 @media screen and (max-width: 650px) {
   .wrap {

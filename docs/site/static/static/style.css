@@ -8,7 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-
 h1,
 h2,
 h3,
@@ -38,7 +37,7 @@ section:not(:last-child) {
   margin-bottom: 100px;
 }
 a {
-  color: #0055d4;
+  color: #8aaba9;
   text-decoration: none;
 }
 a:hover {
@@ -67,10 +66,12 @@ img {
 .center {
   text-align: center;
 }
-.small, code, pre {
+.small,
+code,
+pre {
   font-size: 13px;
   line-height: 20px;
-  color:  #333;
+  color: #333;
 }
 
 .box {
@@ -87,13 +88,13 @@ img.box {
 }
 
 figcaption {
-  color:  #888;
+  color: #888;
   font-size: 0.675em;
   line-height: 1.6;
 }
 
 .button {
-  background: #0055d4;
+  background: #8aaba9;
   display: inline-block;
   text-align: center;
   font-weight: 600;
@@ -114,7 +115,6 @@ figcaption {
   padding: 5px 15px;
 }
 
-
 /* Layout */
 .container {
   max-width: 1300px;
@@ -126,116 +126,119 @@ figcaption {
 }
 
 .logo img {
-  width: 125px;
+  width: 200px;
   height: auto;
 }
 
 nav {
   text-align: right;
 }
-  nav .item:not(:first-child) {
-    margin: 0 0 0 40px;
-  }
-  .github-btn {
-    min-width: 135px;
-    min-height: 38px;
-    float: right;
-    margin-left: 30px;
-  }
-
+nav .item:not(:first-child) {
+  margin: 0 0 0 40px;
+}
+.github-btn {
+  min-width: 135px;
+  min-height: 38px;
+  float: right;
+  margin-left: 30px;
+}
 
 .splash .hero {
   margin-bottom: 60px;
 }
-  .splash .title {
-    max-width: 700px;
-    margin: 0 auto 30px auto;
-    font-size: 3em;
-  }
-  .splash .sub {
-    font-weight: 400;
-    color: #666;
-  }
-  .splash .confetti {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  .splash .demo {
-    margin-top: 30px;
-  }
+.splash .title {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  font-size: 3em;
+}
+.splash .sub {
+  font-weight: 400;
+  color: #666;
+}
+.splash .confetti {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.splash .demo {
+  margin-top: 30px;
+}
 
 .confetti {
   position: relative;
 }
-  .confetti .s1, .confetti .s2, .confetti .s3 {
-    position: absolute;
-  }
-  .confetti.light .s1, .confetti.light .s2, .confetti.light .s3 {
-    opacity: 0.30;
-  }
-  .confetti .s1 {
-    left: -35px;
-    top: 20%;
-    z-index: 10;
-  }
-  .confetti .s2 {
-    z-index: 30;
-    right: 20%;
-    top: -12px;
-  }
-  .confetti .s3 {
-    z-index: 30;
-    left: 15%;
-    bottom: 0;
-  }
-  .confetti .box {
-    position: relative;
-    z-index: 20;
-  }
+.confetti .s1,
+.confetti .s2,
+.confetti .s3 {
+  position: absolute;
+}
+.confetti.light .s1,
+.confetti.light .s2,
+.confetti.light .s3 {
+  opacity: 0.3;
+}
+.confetti .s1 {
+  left: -35px;
+  top: 20%;
+  z-index: 10;
+}
+.confetti .s2 {
+  z-index: 30;
+  right: 20%;
+  top: -12px;
+}
+.confetti .s3 {
+  z-index: 30;
+  left: 15%;
+  bottom: 0;
+}
+.confetti .box {
+  position: relative;
+  z-index: 20;
+}
 
 #download {
   background: #f9f9f9;
   padding: 160px 0 90px 0;
   margin-top: -90px;
 }
-  #download .install-steps li {
-    margin-bottom: 15px;
-  }
-  #download .download-links a {
-    display: inline-block;
-    font-size: 0.775rem;
-    color: #888;
-    text-align: center;
-    width: 75px;
-    height: 75px;
-  }
-  #download .download-links a:hover .icon {
-    transform: scale(1.2);
-  }
-  #download .download-links .icon {
-    transition: transform 100ms ease-in;
-    background-color: #fff;
-    box-shadow: 1px 1px 4px #eee;
-    border: 1px solid #e6e6e6;
-    border-radius: 100%;
+#download .install-steps li {
+  margin-bottom: 15px;
+}
+#download .download-links a {
+  display: inline-block;
+  font-size: 0.775rem;
+  color: #888;
+  text-align: center;
+  width: 75px;
+  height: 75px;
+}
+#download .download-links a:hover .icon {
+  transform: scale(1.2);
+}
+#download .download-links .icon {
+  transition: transform 100ms ease-in;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px #eee;
+  border: 1px solid #e6e6e6;
+  border-radius: 100%;
 
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    border-radius: 100%;
-  }
-  #download .download-links img {
-    max-width: 24px;
-    display: block;
-    margin: 0 auto;
-  }
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+#download .download-links img {
+  max-width: 24px;
+  display: block;
+  margin: 0 auto;
+}
 
-  #download .box {
-    min-height: 475px;
-  }
+#download .box {
+  min-height: 475px;
+}
 
 .hosting {
   text-align: center;
@@ -249,17 +252,17 @@ nav {
   color: #888;
 }
 
-  .feature h2 {
-    margin-bottom: 1em;
-  }
-  .feature img {
-    margin-bottom: 1em;
-  }
-  .feature p {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 750px;
-  }
+.feature h2 {
+  margin-bottom: 1em;
+}
+.feature img {
+  margin-bottom: 1em;
+}
+.feature p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+}
 
 .banner {
   padding-top: 90px;

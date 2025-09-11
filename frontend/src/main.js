@@ -1,12 +1,12 @@
-import Vue from 'vue';
-import Buefy from 'buefy';
-import VueI18n from 'vue-i18n';
+import Vue from "vue";
+import Buefy from "buefy";
+import VueI18n from "vue-i18n";
 
-import App from './App.vue';
-import router from './router';
-import store from './store';
-import * as api from './api';
-import Utils from './utils';
+import App from "./App.vue";
+import router from "./router";
+import store from "./store";
+import * as api from "./api";
+import Utils from "./utils";
 
 // Internationalisation.
 Vue.use(VueI18n);
@@ -18,7 +18,7 @@ Vue.config.productionTip = false;
 // Setup the router.
 router.beforeEach((to, from, next) => {
   if (to.matched.length === 0) {
-    next('/404');
+    next("/404");
   } else {
     next();
   }
@@ -26,8 +26,8 @@ router.beforeEach((to, from, next) => {
 
 router.afterEach((to) => {
   Vue.nextTick(() => {
-    const t = to.meta.title && i18n.te(to.meta.title) ? `${i18n.tc(to.meta.title, 0)} /` : '';
-    document.title = `${t} listmonk`;
+    const t = to.meta.title && i18n.te(to.meta.title) ? `${i18n.tc(to.meta.title, 0)} /` : "";
+    document.title = `${t} MINIMA`;
   });
 });
 
@@ -54,8 +54,8 @@ async function initConfig(app) {
     // in the group is present. Eg: campaigns:* will return true if at least
     // one of campaigns:get, campaigns:manage etc. are present.
     return perms.some((perm) => {
-      if (perm.endsWith('*')) {
-        const group = `${perm.split(':')[0]}:`;
+      if (perm.endsWith("*")) {
+        const group = `${perm.split(":")[0]}:`;
         return profile.userRole.permissions.some((p) => p.startsWith(group));
       }
 
@@ -69,7 +69,7 @@ async function initConfig(app) {
     }
 
     // If the user role has global list permissions, return true.
-    const can = Vue.prototype.$can('lists:get_all', 'lists:manage_all');
+    const can = Vue.prototype.$can("lists:get_all", "lists:manage_all");
     if (can) {
       return true;
     }
@@ -79,11 +79,11 @@ async function initConfig(app) {
 
   // Set the page title after i18n has loaded.
   const to = router.history.current;
-  const title = to.meta.title ? `${i18n.tc(to.meta.title, 0)} /` : '';
-  document.title = `${title} listmonk`;
+  const title = to.meta.title ? `${i18n.tc(to.meta.title, 0)} /` : "";
+  document.title = `${title} MINIMA`;
 
   if (app) {
-    app.$mount('#app');
+    app.$mount("#app");
   }
 }
 

@@ -2,28 +2,45 @@
 @import "../node_modules/bulma/sass/utilities/_all";
 
 /* import inter-regular */
+// @font-face {
+//   font-family: 'Inter';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local(''),
+//        url('assets/fonts/Inter-Regular.woff2') format('woff2'),
+// }
+
+// /* import inter-600 */
+// @font-face {
+//   font-family: 'Inter';
+//   font-style: normal;
+//   font-weight: 600;
+//   src: local(''),
+//        url('assets/fonts/Inter-Bold.woff2') format('woff2'),
+// }
+
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('assets/fonts/Inter-Regular.woff2') format('woff2'),
+       url('assets/fonts/Poppins-Regular.ttf') format('ttf'),
 }
 
-/* import inter-600 */
+/* import Poppins-600 */
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   src: local(''),
-       url('assets/fonts/Inter-Bold.woff2') format('woff2'),
+       url('assets/fonts/Poppins-Bold.ttf') format('ttf'),
 }
 
-$body-family: "Inter", "Helvetica Neue", sans-serif;
+$body-family: "Poppins", "Helvetica Neue", sans-serif;
 $body-size: 15px;
 $background: $white-bis;
 $body-background-color: $white-bis;
-$primary: #0055d4;
+$primary: #8AABA9;
 $green: #36995b;
 $turquoise: $green;
 $red: #FF5722;
@@ -227,8 +244,8 @@ section {
     display: none;
   }
   .full {
-    max-height: 17px;
-    margin-top: 15px;
+    max-height: 50px;
+    // margin-top: 15px;
   }
   .favicon {
     margin-top: 12px;
