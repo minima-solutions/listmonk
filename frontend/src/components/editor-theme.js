@@ -61,7 +61,7 @@ const vsCodeLightTheme = /* @__PURE__ */ EditorView.theme(
       color: gutterActiveForeground,
     },
   },
-  { dark: false }
+  { dark: false },
 );
 // Define the highlighting style for code in the VSCode Light theme
 const vsCodeLightHighlightStyle = /* @__PURE__ */ HighlightStyle.define([
