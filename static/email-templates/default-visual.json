@@ -10,8 +10,12 @@
         "block-1744970939431",
         "block-1744970976991",
         "block-1744971036169",
+<<<<<<< HEAD
         "block-1744971054197",
         "block-1764116602073"
+=======
+        "block-1744971054197"
+>>>>>>> 0684919e (Added MINIMA Brand)
       ]
     }
   },
@@ -23,12 +27,16 @@
         "level": "h3"
       },
       "style": {
+<<<<<<< HEAD
         "padding": {
           "top": 16,
           "bottom": 16,
           "right": 24,
           "left": 24
         }
+=======
+        "padding": { "top": 16, "bottom": 16, "right": 24, "left": 24 }
+>>>>>>> 0684919e (Added MINIMA Brand)
       }
     }
   },
@@ -37,12 +45,16 @@
     "data": {
       "style": {
         "fontWeight": "normal",
+<<<<<<< HEAD
         "padding": {
           "top": 16,
           "bottom": 16,
           "right": 24,
           "left": 24
         }
+=======
+        "padding": { "top": 16, "bottom": 16, "right": 24, "left": 24 }
+>>>>>>> 0684919e (Added MINIMA Brand)
       },
       "props": {
         "markdown": true,
@@ -54,12 +66,16 @@
     "type": "Divider",
     "data": {
       "style": {
+<<<<<<< HEAD
         "padding": {
           "top": 16,
           "bottom": 16,
           "right": 0,
           "left": 0
         }
+=======
+        "padding": { "top": 16, "right": 0, "bottom": 16, "left": 0 }
+>>>>>>> 0684919e (Added MINIMA Brand)
       },
       "props": {
         "lineColor": "#CCCCCC"
@@ -70,6 +86,7 @@
     "type": "Button",
     "data": {
       "style": {
+<<<<<<< HEAD
         "padding": {
           "top": 16,
           "bottom": 16,
@@ -79,10 +96,17 @@
       },
       "props": {
         "buttonBackgroundColor": "#0055d4",
+=======
+        "padding": { "top": 16, "bottom": 16, "right": 24, "left": 24 }
+      },
+      "props": {
+        "buttonBackgroundColor": "#8AABA9",
+>>>>>>> 0684919e (Added MINIMA Brand)
         "text": "This is a button",
         "url": "https://listmonk.app"
       }
     }
+<<<<<<< HEAD
   },
   "block-1764115374178": {
     "type": "Text",
@@ -125,5 +149,7 @@
         "text": "<a href=\"{{ UnsubscribeURL }}\" style=\"color: #888;\">{{ L.T \"email.unsub\" }}</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"{{ MessageURL }}\" style=\"color: #888;\">{{ L.T \"email.viewInBrowser\" }}</a>\n{{ TrackView }}"
       }
     }
+=======
+>>>>>>> 0684919e (Added MINIMA Brand)
   }
 }
