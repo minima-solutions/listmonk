@@ -9,6 +9,7 @@ x-db-credentials: &db-credentials                             # Use the default 
 services:
   # listmonk app
   app:
+    platform: linux/amd64
     build:
       context: .
       dockerfile: Dockerfile
