@@ -81,5 +81,5 @@ All timestamp fields are in the format `2019-01-01T09:00:00.000000+05:30`. The s
 
 ## OpenAPI (Swagger) spec
 
-The auto-generated OpenAPI (Swagger) specification site for the APIs are available at [**listmonk.app/docs/swagger**](https://listmonk.app/docs/swagger/)
+The auto-generated OpenAPI (Swagger) specification site for the APIs are available at [**reach.minimaworks.be/docs/swagger**](https://reach.minimaworks.be/docs/swagger/)
 

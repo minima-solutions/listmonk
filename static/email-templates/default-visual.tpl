@@ -9,16 +9,16 @@
                      <h3 style="font-weight:bold;margin:0;font-size:20px;padding:16px 24px 16px 24px">Hello {{ .Subscriber.Name }}</h3>
                      <div style="font-weight:normal;padding:16px 24px 16px 24px">
                         <p>This is a test e-mail campaign. Your second name is {{ .Subscriber.LastName }} and this block of text is in Markdown.</p>
-                        <p>Here is a <a href="https://listmonk.app@TrackLink" target="_blank">tracked link</a>.</p>
+                        <p>Here is a <a href="https://reach.minimaworks.be@TrackLink" target="_blank">tracked link</a>.</p>
                         <p>Use the link icon in the editor toolbar or when writing raw HTML or Markdown, simply suffix @TrackLink to the end of a URL to turn it into a tracking link. Example:</p>
-                        <p><a href="https:/‌/listmonk.app@TrackLink"></a></p>
-                        <p>For help, refer to the <a href="https://listmonk.app/docs" target="_blank">documentation</a>.</p>
+                        <p><a href="https:/‌/reach.minimaworks.be@TrackLink"></a></p>
+                        <p>For help, refer to the <a href="https://reach.minimaworks.be/docs" target="_blank">documentation</a>.</p>
                      </div>
                      <div style="padding:16px 0px 16px 0px">
                         <hr style="width:100%;border:none;border-top:1px solid #CCCCCC;margin:0"/>
                      </div>
                      <div style="padding:16px 24px 16px 24px">
-                        <a href="https://listmonk.app" style="color:#FFFFFF;font-size:16px;font-weight:bold;background-color:#8AABA9;border-radius:4px;display:inline-block;padding:12px 20px;text-decoration:none" target="_blank">
+                        <a href="https://reach.minimaworks.be" style="color:#FFFFFF;font-size:16px;font-weight:bold;background-color:#8AABA9;border-radius:4px;display:inline-block;padding:12px 20px;text-decoration:none" target="_blank">
                            <span>
                               <!--[if mso]><i style="letter-spacing: 20px;mso-font-width:-100%;mso-text-raise:30" hidden>&nbsp;</i><![endif]-->
                            </span>

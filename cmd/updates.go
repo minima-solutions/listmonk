@@ -10,7 +10,7 @@ import (
 	"golang.org/x/mod/semver"
 )
 
-const updateCheckURL = "https://update.listmonk.app/update.json"
+const updateCheckURL = "https://update.reach.minimaworks.be/update.json"
 
 type AppUpdate struct {
 	Update struct {

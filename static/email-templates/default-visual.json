@@ -35,7 +35,7 @@
       },
       "props": {
         "markdown": true,
-        "text": "This is a test e-mail campaign. Your second name is {{ .Subscriber.LastName }} and this block of text is in Markdown.\n\nHere is a [tracked link](https://listmonk.app@TrackLink).\n\nUse the link icon in the editor toolbar or when writing raw HTML or Markdown, simply suffix @TrackLink to the end of a URL to turn it into a tracking link. Example:\n\n<a href=\"https:/‌/listmonk.app@TrackLink\"></a>\n\nFor help, refer to the [documentation](https://listmonk.app/docs)."
+        "text": "This is a test e-mail campaign. Your second name is {{ .Subscriber.LastName }} and this block of text is in Markdown.\n\nHere is a [tracked link](https://reach.minimaworks.be@TrackLink).\n\nUse the link icon in the editor toolbar or when writing raw HTML or Markdown, simply suffix @TrackLink to the end of a URL to turn it into a tracking link. Example:\n\n<a href=\"https:/‌/reach.minimaworks.be@TrackLink\"></a>\n\nFor help, refer to the [documentation](https://reach.minimaworks.be/docs)."
       }
     }
   },
@@ -59,7 +59,7 @@
       "props": {
         "buttonBackgroundColor": "#8AABA9",
         "text": "This is a button",
-        "url": "https://listmonk.app"
+        "url": "https://reach.minimaworks.be"
       }
     }
   }

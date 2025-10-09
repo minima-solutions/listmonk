@@ -2,7 +2,7 @@
 
 **NOTE**: This exists only for local development. If you're interested in using
 Docker for a production setup, visit the
-[docs](https://listmonk.app/docs/installation/#docker) instead.
+[docs](https://reach.minimaworks.be/docs/installation/#docker) instead.
 
 ### Objective
 

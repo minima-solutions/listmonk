@@ -24,33 +24,33 @@ tags:
   - name: Subscribers
     description: Subscribers API
     externalDocs:
-      url: https://listmonk.app/docs/apis/subscribers/
+      url: https://reach.minimaworks.be/docs/apis/subscribers/
   - name: Bounces
     description: Bounce API
   - name: Lists
     description: Subscriber List API
     externalDocs:
-      url: https://listmonk.app/docs/apis/lists/
+      url: https://reach.minimaworks.be/docs/apis/lists/
   - name: Import
     description: Import API
     externalDocs:
-      url: https://listmonk.app/docs/apis/lists/
+      url: https://reach.minimaworks.be/docs/apis/lists/
   - name: Campaigns
     description: Campaign API
     externalDocs:
-      url: https://listmonk.app/docs/apis/campaigns/
+      url: https://reach.minimaworks.be/docs/apis/campaigns/
   - name: Media
     description: Media API
     externalDocs:
-      url: https://listmonk.app/docs/apis/media/
+      url: https://reach.minimaworks.be/docs/apis/media/
   - name: Templates
     description: Templates API
     externalDocs:
-      url: https://listmonk.app/docs/apis/templates/
+      url: https://reach.minimaworks.be/docs/apis/templates/
   - name: Transactional
     description: Transactional API
     externalDocs:
-      url: https://listmonk.app/docs/apis/transactional/
+      url: https://reach.minimaworks.be/docs/apis/transactional/
   - name: Maintenance
     description: Maintenance API
   - name: Public
@@ -1099,7 +1099,7 @@ paths:
               properties:
                 params:
                   type: string
-                  description: JSON string containing import parameters for more detail https://listmonk.app/docs/apis/import/#params-json-string
+                  description: JSON string containing import parameters for more detail https://reach.minimaworks.be/docs/apis/import/#params-json-string
                   example: '{"mode":"subscribe", "subscription_status":"confirmed", "delim":",", "lists":[1, 2], "overwrite": true}'
                 file:
                   type: string

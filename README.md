@@ -1,12 +1,12 @@
 <a href="https://zerodha.tech"><img src="https://zerodha.tech/static/images/github-badge.svg" align="right" /></a>
 
-[![listmonk-logo](https://user-images.githubusercontent.com/547147/231084896-835dba66-2dfe-497c-ba0f-787564c0819e.png)](https://listmonk.app)
+[![listmonk-logo](https://user-images.githubusercontent.com/547147/231084896-835dba66-2dfe-497c-ba0f-787564c0819e.png)](https://reach.minimaworks.be)
 
 listmonk is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. It uses a PostgreSQL database as its data store.
 
-[![listmonk-dashboard](https://github.com/user-attachments/assets/689b5fbb-dd25-4956-a36f-e3226a65f9c4)](https://listmonk.app)
+[![listmonk-dashboard](https://github.com/user-attachments/assets/689b5fbb-dd25-4956-a36f-e3226a65f9c4)](https://reach.minimaworks.be)
 
-Visit [listmonk.app](https://listmonk.app) for more info. Check out the [**live demo**](https://demo.listmonk.app).
+Visit [reach.minimaworks.be](https://reach.minimaworks.be) for more info. Check out the [**live demo**](https://demo.reach.minimaworks.be).
 
 ## Installation
 
@@ -25,7 +25,7 @@ docker compose up -d
 ```
 Visit `http://localhost:9000`
 
-See [installation docs](https://listmonk.app/docs/installation)
+See [installation docs](https://reach.minimaworks.be/docs/installation)
 
 __________________
 
@@ -35,12 +35,12 @@ __________________
 - `./listmonk --install` to setup the Postgres DB (or `--upgrade` to upgrade an existing DB. Upgrades are idempotent and running them multiple times have no side effects).
 - Run `./listmonk` and visit `http://localhost:9000`
 
-See [installation docs](https://listmonk.app/docs/installation)
+See [installation docs](https://reach.minimaworks.be/docs/installation)
 __________________
 
 
 ## Developers
-listmonk is free and open source software licensed under AGPLv3. If you are interested in contributing, refer to the [developer setup](https://listmonk.app/docs/developer-setup). The backend is written in Go and the frontend is Vue with Buefy for UI. 
+listmonk is free and open source software licensed under AGPLv3. If you are interested in contributing, refer to the [developer setup](https://reach.minimaworks.be/docs/developer-setup). The backend is written in Go and the frontend is Vue with Buefy for UI. 
 
 
 ## License
