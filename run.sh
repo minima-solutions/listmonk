@@ -54,7 +54,7 @@ run_migrations(){
 
 start_services(){
 	info "starting app"
-	docker compose -f docker-compose.dev.yml up -d app db
+	docker compose -f docker-compose.dev.yml  up -d app db
 }
 
 show_output(){
