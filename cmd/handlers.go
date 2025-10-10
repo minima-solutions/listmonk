@@ -219,7 +219,7 @@ func initHTTPHandlers(e *echo.Echo, a *App) {
 
 		// Landing page.
 		g.GET("/", func(c echo.Context) error {
-			return c.Render(http.StatusOK, "home", publicTpl{Title: "listmonk"})
+			return c.Render(http.StatusOK, "home", publicTpl{Title: "Welkom"})
 		})
 
 		// Public admin endpoints (login page, OIDC endpoints).
