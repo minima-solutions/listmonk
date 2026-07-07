@@ -1,5 +1,5 @@
 # Builder: compile Go backend, build frontend, and pack assets
-FROM golang:1.25-alpine AS builder
+FROM golang:1.26-alpine AS builder
 
 # Install GNU grep (for -P support) and other deps
 RUN apk add --no-cache git build-base nodejs npm yarn grep
